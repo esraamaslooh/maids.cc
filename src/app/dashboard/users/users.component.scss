@@ -1,0 +1,55 @@
+@import '../../../assets/style/colors.scss';
+
+.navigation {
+    width: 75%;
+    justify-content: space-between;
+}
+
+.page-btn {
+    background-color: #6482AD;
+    color: $white;
+    border: 5px solid;
+}
+
+.users {
+    .cards {
+        background-color: #F6F1F1;
+    }
+
+    .users-container {
+        background-color: #E2DAD6;
+    }
+
+    .card {
+
+        height: 250px;
+        cursor: pointer;
+
+        h3 {
+            background-color: #7FA1C3;
+
+
+            ;
+        }
+
+        img {
+            height: 150px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+    }
+
+}
+
+.img-fluid {
+    width: 350px;
+}
+
+.container {
+    .card {
+        .fw-bolder {
+            background-color: #7FA1C3;
+            padding: 10px;
+        }
+    }
+}
